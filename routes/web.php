@@ -29,3 +29,24 @@ Route::resource('courses', App\Http\Controllers\CoursesController::class);
 
 
 Route::resource('quizzes', App\Http\Controllers\QuizController::class);
+
+
+Route::resource('videos', App\Http\Controllers\VideoController::class);
+
+
+Route::resource('sections', App\Http\Controllers\SectionController::class);
+
+
+Route::resource('subSections', App\Http\Controllers\SubSectionController::class);
+
+
+Route::resource('exames', App\Http\Controllers\ExamesController::class);
+
+
+Route::resource('uploads', App\Http\Controllers\UploadsController::class);
+
+
+Route::resource('courseLives', App\Http\Controllers\CourseLiveController::class);
+
+
+Route::resource('coursePubliers', App\Http\Controllers\CoursePublierController::class);
