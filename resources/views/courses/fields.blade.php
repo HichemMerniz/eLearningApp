@@ -3,6 +3,11 @@
     {!! Form::text('name', null, ['class' => 'form-control']) !!}
 </div>
 
+<div class="form-group col-sm-6">
+    {!! Form::label('date', 'date :') !!}
+    {!! Form::date('date', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Description Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('description', 'Description:') !!}
